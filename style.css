@@ -12,9 +12,9 @@
 :root {
   --primary-color: hsl(9, 94%, 61%);
   --primary-color-alt: hsl(27, 39%, 12%);
-  --second-color: #3e537c;
-  --second-color-alt: hsla(220, 33%, 36%, 65%);
-  --third-color: hsl(220, 36%, 28%);
+  --second-color: #ffffff;
+  --second-color-alt: #ffffff;
+  --third-color: #ffff;
   --white-color: #fbfbfb;
   --white-color-alt: hsl(12, 14%, 93%);
   --dark-color: hsl(300, 100%, 0%);
@@ -558,7 +558,7 @@ input[type="submit"]:hover {
     background-color: var(--third-color);
   }
   .copyright {
-    color: hsla(0, 0%, 98%, 0.747);
+    color: hsl(0, 0%, 0%);
     padding: 1rem 0;
     font-size: 0.8rem;
   }
